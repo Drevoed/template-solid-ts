@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Bundler",
+    "strictNullChecks": true,
+    "strict": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "jsx": "preserve",
+    "downlevelIteration": true,
+    "jsxImportSource": "solid-js",
+    "types": ["vitest/importMeta"],
+    "baseUrl": "./src",
+    "paths": {
+      "@/assets/*": [
+        "../assets/*"
+      ]
+    }
+  }
+}
